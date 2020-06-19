@@ -13,10 +13,10 @@ class Result extends StatelessWidget {
     if(resultScore <= 10){
       resultText = 'your greate buddy';
     }else if(resultScore <= 20){
-      resultText  = 'keep rocking bad ass';
+      resultText  = 'keep rocking man';
 
     }else{
-      resultText = 'your bad mf';
+      resultText = 'your better';
     }
     return resultText;
   }
